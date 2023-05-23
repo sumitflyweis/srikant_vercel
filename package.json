@@ -20,11 +20,7 @@
     "mongoose": "^6.10.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
-    "razorpay": "^2.8.6",
-    "vercel": "^29.4.0"
-  },
-  "devDependencies": {
+    "razorpay": "^2.8.6"
   },
   "description": ""
 }
- 
