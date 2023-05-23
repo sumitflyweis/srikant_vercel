@@ -55,6 +55,10 @@ app.use(morgan('dev'));
 app.use(cors());
 
 
+app.get("/home",(req, res) => {
+    res.status(200).send({msg:"Working App"});
+  });
+
 app.use('/api/v1/student', studentRouter);
 app.use('/api/v1/institutes', institutes);
 app.use('/api/v1/teacher', teacher);
