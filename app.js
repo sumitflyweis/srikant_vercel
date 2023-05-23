@@ -1,4 +1,3 @@
-
 const morgan = require('morgan');
 const cors = require('cors');
 const createError = require('http-errors');
