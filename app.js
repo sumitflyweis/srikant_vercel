@@ -103,10 +103,10 @@ app.use('/api/v1/impQues',impQues)
 
 
 
-app.all('*', (req, res, next) => {
-    return next(
-        createError(404, 'Path does not exists'));
-})
+// app.all('*', (req, res, next) => {
+//     return next(
+//         createError(404, 'Path does not exists'));
+// })
 
 
 app.use((err, req, res, next) => {
